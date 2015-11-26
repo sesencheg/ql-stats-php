@@ -1,0 +1,1263 @@
+* { margin: 0; padding: 0; }
+
+html, body { height: 100%; }
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 12px;
+	background: #2b2b2b;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+a:hover {
+	
+}
+
+img {
+	max-width: 100%;
+}
+
+h1 {
+	color: #a54e4e;
+	font-size: 3em;
+	letter-spacing: -0.04em;
+}
+
+.bigtext {
+	color: #a54e4e;
+	font-size: 3em;
+	text-shadow: 1px 1px 0 white;
+	letter-spacing: -0.04em;
+}
+
+.inner {
+	width: 95%;
+	margin: 0 auto;
+	position: relative;
+	min-width: 760px;
+	max-width: 1050px;
+}
+
+.clear { clear: both;}
+.text-box { margin-top: 10px; margin-bottom: 25px;}
+
+#header {
+	display: block;
+	width: 100%;
+	background: #333333;	
+	height: 120px;
+}
+
+#header #logo {
+	float: left;
+	display: block;
+	margin-top: 25px;
+}
+
+#header #logo a {
+	display: block;
+	width: 233px;
+	height: 64px;
+	background: url('images/logo.png') 0 0 no-repeat;
+}
+
+
+td.player a  
+{
+	font-weight: bold;
+	color: #a54e4e; 
+}
+
+#header #mods {
+	float: left;
+	margin: 45px 0 0 0;
+}
+
+#header #mods ul {
+	list-style: none;
+}
+
+#header #mods ul li {
+	float: left;
+	margin: 0 0 0 10px;
+}
+
+#header #donate {
+	margin: 0 auto;
+	left: 470px;
+	top: 45px;
+	position: absolute;
+	
+}
+
+#header #donate a:hover { border: 0; }
+
+#header #tracking {
+	float: right;
+	margin-top: 20px;
+	font-size: 12px;
+	color: #fff;
+}
+
+#header #tracking strong {
+	color: #a54e4e;
+}
+
+#header .inner {
+	height: 120px; /* fix for menu */
+}
+
+#header #nav ul {
+	list-style: none;
+	position: absolute;
+	right: 0;
+	bottom: -2px;
+}
+
+#header #nav ul li {
+	display: block;
+	float: left;
+}
+
+#header #nav ul li.active {
+    border: 1px solid #d5d5d5;
+	border-bottom: 0;
+	background: #f4f4f4;
+}
+
+#header #nav ul li a {
+	display: block;
+	color: #6a6a6a;
+	padding: 8px;
+	font-size: 18px;
+	text-shadow: 1px 1px 0 white;
+}
+
+#header #nav ul li a:hover {
+	color: #333333;
+	border: 0;
+}
+
+#footer {
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;	
+	background: #333333;
+	margin: 20px 0 0 0;
+}
+
+#content {
+	display: block;
+	width: 100%;
+	padding: 20px 0 0 0;
+}
+
+#content .left {
+	float: left;
+	width: 49.5%;
+	display: block;
+}
+
+#content .right {
+	float: right;
+	width: 49.5%;
+	display: block;
+}
+
+#content .left-wide {
+	float: left;
+	width: 69%;
+}
+
+#content .right-small {
+	float: right;
+	width: 29%;
+}
+
+#content .left-third {
+	float: left;
+	width: 32%;
+	margin-right: 1%;
+}
+
+#content .mid-third {
+        float: left;
+        width: 32%;
+	margin-left: 0.5%;
+}
+
+#content .right-third {
+	float: right;
+	width: 33%;
+}
+
+#content .left-sixth {
+	float: left;
+	width: 16%;
+}
+
+#content .right-sixth {
+	float: right;
+	width: 16%;
+}
+
+#content .left-fourtenth {
+	float: left;
+	width: 41%;
+}
+
+#content .right-fourtenth {
+	float: right;
+	width: 41%;
+}
+
+#content .left-twothird {
+	float: left;
+	width: 66%;
+	margin-right: 1%;
+}
+
+#content .right-twothird {
+	float: right;
+	width: 66%;
+}
+
+#content .center {
+    float: left;
+    width: 100%;
+}
+
+
+#stream {
+	float:left;
+	left: inherit;
+	top: inherit;
+	width: 1050px;
+	height: 500px;
+}
+
+#streamchat {
+	float:right;
+	margin: 0px, 0px, 5px, 0px;
+}
+
+
+.box {
+	margin: 0 0 20px 0;
+	background: white;
+	box-shadow: 0 0px 3px rgba(31, 31, 31, 0.25);
+}
+
+.box h2 {
+	height: 24px;
+	line-height: 24px;
+	display: block;
+	background: #ececec;
+	padding: 2px 0 2px 5px;
+	color: #444444;
+	letter-spacing: -0.06em;
+	/*box-shadow: 0 0px 3px rgba(31, 31, 31, 0.25);*/
+	text-shadow: 1px 1px 0 white;
+}
+
+.box table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 12px;
+	color: #333;
+}
+
+.box table tr th {
+	text-align: left;
+	padding: 5px;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.box table .rank { width: 15%; border-left: 0 !important; }
+
+.box table .nickname { width: 30%; }
+.box table .country { width: 40%; }
+.box table .elo { width: 15%; text-align: center ;}
+
+.box table tr td {
+	border: 1px solid #ececec;
+	border-width: 0 0 0 1px;
+	padding: 5px;
+}
+
+.box table tbody tr td.nickname a { display: block;}
+#top-countries table tbody tr td a { display: inline; }
+.box table tbody tr td a:hover { border: 0;}
+
+.box table tbody tr:nth-child(odd) {background: #f4f4f4}
+
+.box table tbody .nickname a {
+	color: #a54e4e;
+	font-weight: bold;
+}
+
+.box .image {
+	text-align: center;
+}
+
+/* Cups stuff */
+
+.box-cups {
+	margin: 0 0 20px 0;
+	background: white;
+	box-shadow: 0 0px 3px rgba(31, 31, 31, 0.25);
+}
+
+.box-cups h2 {
+	height: 24px;
+	line-height: 24px;
+	display: block;
+	background: RGBA(255,0,0,0.4);
+	padding: 2px 0 2px 5px;
+	color: darkred;
+	letter-spacing: -0.06em;
+	/*box-shadow: 0 0px 3px rgba(31, 31, 31, 0.25);*/
+	text-shadow: 1px 1px 0 black;
+}
+
+.box-cups table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 12px;
+}
+
+.box-cups table tr th {
+	text-align: left;
+	padding: 5px;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.box-cups table .rank { width: 15%; border-left: 0 !important; }
+
+.box-cups table .nickname { width: 30%; }
+.box-cups table .country { width: 40%; }
+.box table .elo { width: 15%; text-align: center ;}
+
+.box-cups table tr td {
+	border: 1px solid #ececec;
+	border-width: 0 0 0 1px;
+	padding: 5px;
+}
+
+.box-cups table tbody tr td.nickname a { display: block;}
+.box-cups table tbody tr td a:hover { border: 0;}
+
+.box-cups table tbody tr:nth-child(odd) {background: RGBA(255,0,0,0.1)}
+
+.box-cups table tbody .nickname a {
+	color: #a54e4e;
+	font-weight: bold;
+}
+
+/* End cups stuff */
+
+.icon {
+  display: block;
+  width: 28px;
+  height: 28px;
+  background-image: url('images/icons.png');
+  background-repeat: no-repeat;
+  float: left;
+  clear: left;
+}
+
+.icon.ffa { background-position: 0 0; }
+.icon.ctf { background-position: -28px 0; }
+.icon.ca { background-position: -58px 0; }
+.icon.duel { background-position: -87px 0; }
+.icon.tdm { background-position: -348px 0; }
+.icon.race { background-position: -378px 0; }
+
+.icon.gauntlet { background-position: -116px 0;}
+.icon.mg { background-position: -145px 0;}
+.icon.lg { background-position: -174px 0;}
+.icon.gl { background-position: -203px 0;}
+.icon.sg { background-position: -232px 0;}
+.icon.rl { background-position: -261px 0;}
+.icon.rg { background-position: -290px 0;}
+.icon.pg { background-position: -319px 0;}
+
+/* Player specific */
+
+#medals {
+	width: 270px;
+	margin: 20px auto;
+}
+
+.medal {
+	display: block;
+	margin: 0 5px 0 5px;
+	height: 40px;
+	width: 40px;
+	background-image: url('images/medals.png');
+	background-repeat: no-repeat;
+	float: left;
+	text-align: center;
+	font-size: 1em;
+	font-weight: bold;
+	padding-top: 40px;
+}
+
+.medal.exc { background-position: 0px 0; }
+.medal.imp { background-position: -80px 0; }
+.medal.hum { background-position: -40px 0; }
+
+#player #avatar {
+  text-align: center;
+  display: block;
+}
+
+#player #avatar img {
+	margin-top: 40px;
+}
+
+#player #stats {
+  font-size: 18px;
+  margin: 5px 0 8px 0;
+}
+
+#player .line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin-bottom: 32px;
+  background: #d5d5d5;
+}
+
+#player #stats strong {
+	margin-right: 15px;
+	color: #a54e4e;
+}
+
+#player #vital_stats td {
+	font-weight: bold;
+}
+
+#player #vital_stats .value {
+	color: #a54e4e;
+}
+
+#player #ranking_stats .active {
+	background: #eabd70;
+}
+
+#player #pagination ul {
+	list-style: none;
+}
+
+#player #pagination ul li {
+	float: left;
+	width: 10%;
+	text-align: center;
+}
+
+#player #pagination ul li a {
+	font-weight: bold;
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	border-bottom: 1px solid transparent;
+}
+
+#player #pagination .current a {
+	color: #a54e4e;
+	background: #f4f4f4;
+}
+
+#player #pagination a:hover {
+	border-bottom: 1px dotted #a54e4e;
+}
+
+#player #recent_games table tr th {
+  line-height: 16px;
+}
+
+#elo-change, #most-played {
+	height: 392px;
+	position: relative;
+}
+
+#tracked-duels {
+	height: 190px;
+}
+
+#player #weapon_stats thead th .icon {
+	text-align: center;
+	margin: 0 auto;
+	float: none;
+	padding: 0;
+}
+
+#player #weapon_stats tbody td {
+	text-align: center;
+	line-height: 20px;
+	padding: 0 8px 0 8px;
+}
+
+#player #weapon_stats thead tr th { line-height: 15px; padding: 0; }
+
+#player #weapon_stats tbody .frags {
+	color: #a54e4e;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#player #weapon_stats tbody td.title {
+	text-align: left;
+	font-weight: bold;
+	color: #444;
+	font-size: 12px;
+}
+
+#top20 tbody td { padding: 8px; }
+
+#vital_stats table {
+	height: 240px;
+}
+#weapon_stats table {
+	/*height: 120px;*/
+	height: 160px;
+}
+
+#recent_games tbody td.map img {
+	width: 50px;
+}
+
+#recent_games tbody td {
+	text-align: center;
+}
+
+#recent_games tbody td.nickname {
+	text-align: left;
+}
+
+#recent_games td.time {
+	font-size: 10px;
+}
+
+#recent_games .score {
+	font-weight: bold;
+}
+
+#recent_games .win {
+	color: #52ba65;
+}
+
+#recent_games .loose {
+	color: #e04f26;
+}
+
+div.graph
+{
+	width: 70%;
+	margin: 5% 0 0 5%;
+}
+
+#mapgraph {
+    height: 70%;
+}
+
+#elograph, #rankgraph {
+	height: 35%;
+}
+
+#trackedgraph {
+	height: 70%;
+}
+
+div.graph .legend {
+	position: absolute;
+	width: 35%;
+	left: 100%;
+	top: 0;
+	background: none;
+}
+
+#elograph .legend, #rankgraph .legend, #trackedgraph .legend {
+	left: 103%;
+}
+
+div.graph .legend td {
+	padding: 0;
+}
+
+#cursorMessageDiv {
+        position: absolute;
+        z-index: 99999;
+        border: solid 1px #CCC;
+        background: #EEE;
+        padding: 2px;
+        margin: 0px;
+        display: none;
+}
+
+#notificationbar {
+    background: none repeat scroll 0 0 #EABD70;
+    border-bottom: 3px solid #FFFFFF;
+    color: #A54E4E;
+    font-family: Georgia,Times New Roman,Times,serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1000;
+}
+            
+input[type="text"] {
+  background-color: #F1F1F2;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0 1px 3px #CCCCCC inset;
+  color: #B6B6B6;
+  height: 16px;
+  margin: 1px 0 10px;
+  outline: medium none;
+  padding: 6px 10px;
+  text-shadow: 1px 1px #FFFFFF;
+}
+
+#top #left {
+    width: 43%;
+    float: left;
+}
+
+#top #right {
+    width: 43%;
+    float: right;
+    text-align: right;
+}
+
+#top #middle {
+    width: 14%;
+    text-align: center;
+    float: left;
+}
+
+#top h1 {
+	color: #fff;
+	font-size: 3em;
+
+	letter-spacing: -0.04em;
+}
+
+
+#player .stats {
+  font-size: 18px;
+  margin: 5px 0 8px 0;
+}
+
+
+#player .stats strong {
+	margin-right: 15px;
+	color: #a54e4e;
+}
+
+
+
+
+
+#stats_datacontainer table thead tr {
+    height: 25px;
+}
+
+
+#leaderboard_filterbar .filterbar_expanded {
+    height: 175px;
+}
+.lgrayBorder {
+    border: 1px solid #CCC;
+}
+.lgrayBack {
+    background-color: #CCC;
+}
+.characterImg {
+    float: right;
+    width: 158px;
+    height: 376px;
+    margin-left: -45px;
+    margin-top: -88px;
+}
+.charType {
+    font-family: arial;
+    color: #ff6633;
+    font-size: 14px;
+}
+.charTypeLarge {
+    font-family: arial;
+    color: #ff6633;
+    font-size: 24px;
+    font-weight: 800;
+}
+.charProfile {
+    font-family: arial;
+    font-size: 10px;
+    color: #333;
+    width: 99px;
+}
+.profile_form {
+    float: left;
+    width: 340px;
+}
+.editPro_row {
+    width: 380px;
+}
+.textbox {
+    border: solid 1px #9c9c9c;
+}
+.popheaderS {
+    background-image: url(/images/sf/pop_up/game_data_windows/onOver/bkd_headerbar_v2013012200.0.jpg);
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 24px;
+    margin: 0 auto;
+}
+.popupBorder {
+    background: url(/images/sf/pop_up/game_data_windows/onOver/bkd_v2013012200.0.jpg) #e6e7e1;
+    width: 375px;
+    display: block;
+    padding-top: 7px;
+    margin: 0 auto;
+}
+.vsFrameContainer {
+    position: relative;
+    width: 373px;
+    height: 93px;
+    margin: 0px 1px;
+    top: 1px;
+    left: -3px;
+}
+.vsFrame {
+    position: absolute;
+    top: -28;
+    left: -4;
+    background: url(/images/sf/pop_up/game_data_windows/profilevsframe_v2013012200.0.png) no-repeat;
+    width: 373px;
+    height: 93px;
+    z-index: 10;
+}
+.vsFrameContainer .headNum1 {
+    background-color: #000;
+    position: absolute;
+    left: 4px;
+    top: 7px;
+}
+.vsFrameContainer .headNum2 {
+    background-color: #000;
+    position: absolute;
+    right: 4px;
+    top: 7px;
+}
+.vsFrameContainer .gameTypeIcon {
+    position: absolute;
+    left: 148px;
+    top: 7px;
+}
+.vsFrameContainer .scoreNum1, .vsFrameContainer .nameNum1, .vsFrameContainer .flagNum1, .vsFrameContainer .scoreNum2, .vsFrameContainer .nameNum2, .vsFrameContainer .flagNum2 {
+    position: absolute;
+    z-index: 11;
+}
+.vsFrameContainer .scoreNum1, .vsFrameContainer .scoreNum2 {
+    font-size: 18px;
+    font-family: Arial;
+    color: #000;
+    width: 46px;
+    top: 42px;
+    text-align: center;
+    overflow: hidden;
+}
+.vsFrameContainer .rankNum1 {
+    position: absolute;
+    left: 70px;
+    top: 25px;
+    background: url(/images/sf/pop_up/game_data_windows/num_1_v2013012200.0.png) no-repeat;
+    width: 18px;
+    height: 20px;
+    z-index: 11;
+}
+.vsFrameContainer .rankNum2 {
+    position: absolute;
+    right: 69px;
+    top: 25px;
+    background: url(/images/sf/pop_up/game_data_windows/num_2_v2013012200.0.png) no-repeat;
+    width: 29px;
+    height: 20px;
+    z-index: 11;
+}
+.vsFrameContainer .noPlayer2 {
+    display: none;
+    position: absolute;
+    right: 3px;
+    top: 24px;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #444;
+    text-align: center;
+    z-index: 11;
+    width: 95px;
+}
+.vsFrameContainer .text_team_blue {
+    color: #7ca2b0 !important;
+}
+.vsFrameContainer .text_team_red {
+    color: #cc3333 !important;
+}
+.vsFrameContainer .scoreNum1 {
+    left: 95px;
+}
+.vsFrameContainer .scoreNum2 {
+    right: 99px;
+}
+.vsFrameContainer .flagNum1, .vsFrameContainer .flagNum2 {
+    top: 71px;
+    border: 1px solid #000;
+}
+.vsFrameContainer .flagNum1 {
+    left: 13px;
+}
+.vsFrameContainer .flagNum2 {
+    right: 13px;
+}
+.vsFrameContainer .nameNum1, .vsFrameContainer .nameNum2 {
+    color: #000;
+    font-size: 11px;
+    font-family: Arial;
+    width: 115px;
+    top: 69px;
+    line-height: 15px;
+    overflow: hidden;
+}
+.vsFrameContainer .nameNum1 {
+    text-align: right;
+    left: 30px;
+}
+.vsFrameContainer .nameNum2 {
+    text-align: left;
+    right: 30px;
+}
+.mainData {
+    display: block;
+    position: relative;
+    margin-left: 12px;
+    margin-top: 7px;
+    text-align: left;
+}
+.placeImg {
+    float: left;
+    display: block;
+    position: relative;
+    margin-right: 8px;
+    margin-left: 6px;
+    border: 1px solid #000;
+}
+.mainDataInfo {
+    float: left;
+    display: block;
+    margin-left: 10px;
+    font-size: 11px;
+    font-family: Arial;
+    position: relative;
+}
+.mainDataInfoW {
+    float: left;
+    display: block;
+    margin-left: 5px;
+    font-size: 11px;
+    font-family: Arial;
+    position: relative;
+    overflow: hidden;
+    width: 130px;
+    top: 0px;
+    left: 0px;
+    height: 85px;
+}
+
+#match_mapshot {
+    float: left;
+}
+.grayNameTxt {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    color: #333;
+}
+.dataDetail {
+    display: block;
+    position: relative;
+    width: 375px;
+    clear: left;
+    padding-top: 12px;
+}
+.dataDetail .leftCol, .dataDetail .midCol, .dataDetail .rightCol {
+    font-family: Arial;
+    font-size: 11px;
+    color: #000;
+    line-height: 20px;
+}
+.dataDetail .leftCol {
+    padding-left: 20px;
+    width: 120px;
+    text-align: left;
+    font-weight: bold;
+    float: left;
+}
+.dataDetail .midCol {
+    width: 150px;
+    text-align: left;
+    float: left;
+}
+.dataDetail .rightCol {
+    padding-right: 30px;
+    text-align: center;
+    float: left;
+}
+.weapons {
+    margin-left: 14px;
+}
+.popupBorderW {
+    width: 635px;
+    background: url(/images/sf/pop_up/game_data_windows/onClick/bkd_v2013012200.0.jpg);
+    margin: 0 auto;
+}
+.mainDataW {
+    float: left;
+    display: block;
+    position: relative;
+    margin-left: 6px;
+    margin-top: 10px;
+    text-align: left;
+    width: 250px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.mainDataW .placeImg {
+    float: left;
+    display: block;
+    position: relative;
+    margin: 0;
+}
+.drkgrayBG, .normalZebraOff, .blueZebraOff, .redZebraOff {
+    background-color: rgb(226, 226, 226);
+    background-color: rgba(226, 226, 226, 0.8);
+}
+.lghtgrayBG, .normalZebraOn, .blueZebraOn, .redZebraOn {
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.teamZebraOff {
+    background-color: rgb(226, 226, 226);
+    background-color: rgba(226, 226, 226, 0.8);
+    height: 21px;
+}
+.teamZebraOn {
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 21px;
+}
+.normalBG, .teamBG {
+    background-color: rgb(175, 175, 175);
+    background-color: rgba(175, 175, 175, 0.8);
+    height: 21px;
+}
+.redBG {
+    background-color: rgb(220, 139, 135);
+    background-color: rgba(204, 0, 0, 0.2);
+    height: 21px;
+}
+.blueBG {
+    background-color: rgb(145, 179, 201);
+    background-color: rgba(85, 143, 185, 0.2);
+    height: 21px;
+}
+table.quitterstable_normal thead tr, table.quitterstable_blue thead tr, table.quitterstable_red thead tr {
+    background-color: rgb(175, 175, 175);
+    background-color: rgba(175, 175, 175, 0.8);
+    height: 21px;
+}
+.dataDetailL th {
+    cursor: pointer;
+}
+.Norm11px b {
+    font-weight: bold;
+}
+
+
+#stats_tip .error {
+    display: block;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: #f00;
+    font-weight: bold;
+}
+.matchNavBar {
+    background: url(/images/sf/pop_up/game_data_windows/onClick/navbar_v2013012200.0.png) no-repeat;
+    width: 635px;
+    height: 28px;
+    clear: both;
+}
+.matchNavBar .leftSide {
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    top: 3px;
+    line-height: 21px;
+}
+.matchNavBar .leftSide a, .matchNavBar .rightSide a {
+    display: block;
+    font-size: 11px;
+    font-family: Arial;
+    text-decoration: none;
+    padding: 0 5px;
+}
+.matchNavBar .rightSide a:hover {
+    text-decoration: underline;
+}
+.matchNavBar .leftSide a:hover, .matchNavBar .leftSide .selected {
+    background-color: #8d8c8c;
+    color: #fff;
+    text-decoration: underline;
+}
+.matchNavBar .rightSide {
+    float: right;
+    margin-right: 10px;
+    width: 250px;
+    position: relative;
+    top: 6px;
+}
+.matchNavBar .rightSide img {
+    position: relative;
+    top: 2px;
+}
+.SCOREBOARD_RANK, .SCOREBOARD_PLAYER_NICK, .SCOREBOARD_PLAYER_NICK a, .SCOREBOARD_SCORE, .SCOREBOARD_KILLS, .SCOREBOARD_DEATHS, .SCOREBOARD_ACCURACY, .SCOREBOARD_MIN, .SCOREBOARD_EXCELLENT, .SCOREBOARD_IMPRESSIVE, .SCOREBOARD_HUMILIATION, .SCOREBOARD_DAMAGE_DEALT, .SCOREBOARD_DAMAGE_TAKEN {
+    font-size: 11px;
+    padding: 0 0px;
+    overflow: hidden;
+}
+.SCOREBOARD_RANK {
+    margin: 0 10px;
+    width: 50px;
+    text-align: center;
+}
+.SCOREBOARD_SCORE, .SCOREBOARD_KILLS, .SCOREBOARD_DEATHS, .SCOREBOARD_ACCURACY, .SCOREBOARD_EXCELLENT, .SCOREBOARD_IMPRESSIVE, .SCOREBOARD_HUMILIATION, .SCOREBOARD_DAMAGE_DEALT, .SCOREBOARD_DAMAGE_TAKEN {
+    width: 40px;
+    text-align: center;
+}
+.SCOREBOARD_MIN {
+    width: 60px;
+    text-align: center;
+}
+.TEAM_SCOREBOARD_TEAM, .TEAM_SCOREBOARD_SCORE, .TEAM_SCOREBOARD_KILLS, .TEAM_SCOREBOARD_DEATHS, .TEAM_SCOREBOARD_ACCURACY, .TEAM_SCOREBOARD_EXCELLENT, .TEAM_SCOREBOARD_IMPRESSIVE, .TEAM_SCOREBOARD_HUMILIATION, .TEAM_SCOREBOARD_MIN, .TEAM_SCOREBOARD_ROUNDS_WON, .TEAM_SCOREBOARD_CAPTURES, .TEAM_SCOREBOARD_DEFENDS, .TEAM_SCOREBOARD_ASSISTS {
+    font-size: 11px;
+    line-height: 20px;
+    padding: 0 0px;
+    overflow: hidden;
+    width: 50px;
+    text-align: center;
+}
+.TEAM_SCOREBOARD_TEAM, .WP_TEAM_SCOREBOARD_TEAM {
+    padding-left: 20px;
+    width: 178px;
+    text-align: left;
+}
+.RED_SCOREBOARD_TEAM_RANK, .RED_SCOREBOARD_PLAYER_NICK, .RED_SCOREBOARD_PLAYER_NICK a, .BLUE_SCOREBOARD_TEAM_RANK, .BLUE_SCOREBOARD_PLAYER_NICK, .BLUE_SCOREBOARD_PLAYER_NICK a {
+    color: black;
+    font-size: 11px;
+    padding: 0 0px;
+    overflow: hidden;
+    width: 40px;
+    text-align: center;
+    white-space: nowrap;
+}
+.RED_SCOREBOARD_SCORE, .RED_SCOREBOARD_KILLS, .RED_SCOREBOARD_DEATHS, .RED_SCOREBOARD_ACCURACY, .RED_SCOREBOARD_MIN, .RED_SCOREBOARD_EXCELLENT, .RED_SCOREBOARD_IMPRESSIVE, .RED_SCOREBOARD_HUMILIATION, .RED_SCOREBOARD_ROUNDS_WON, .RED_SCOREBOARD_CAPTURES, .RED_SCOREBOARD_DEFENDS, .RED_SCOREBOARD_ASSISTS, .RED_SCOREBOARD_THAWS, .RED_SCOREBOARD_DAMAGE_DEALT, .RED_SCOREBOARD_DAMAGE_TAKEN, .BLUE_SCOREBOARD_SCORE, .BLUE_SCOREBOARD_KILLS, .BLUE_SCOREBOARD_DEATHS, .BLUE_SCOREBOARD_ACCURACY, .BLUE_SCOREBOARD_MIN, .BLUE_SCOREBOARD_EXCELLENT, .BLUE_SCOREBOARD_IMPRESSIVE, .BLUE_SCOREBOARD_HUMILIATION, .BLUE_SCOREBOARD_ROUNDS_WON, .BLUE_SCOREBOARD_CAPTURES, .BLUE_SCOREBOARD_DEFENDS, .BLUE_SCOREBOARD_ASSISTS, .BLUE_SCOREBOARD_THAWS, .BLUE_SCOREBOARD_DAMAGE_DEALT, .BLUE_SCOREBOARD_DAMAGE_TAKEN {
+    color: black;
+    font-size: 11px;
+    padding: 0 0px;
+    overflow: hidden;
+    width: 50px;
+    text-align: center;
+    white-space: nowrap;
+}
+.WP_SCOREBOARD_RANK, .WP_SCOREBOARD_TEAM, .WP_SCOREBOARD_GT, .WP_SCOREBOARD_MG, .WP_SCOREBOARD_SG, .WP_SCOREBOARD_GL, .WP_SCOREBOARD_LG, .WP_SCOREBOARD_RL, .WP_SCOREBOARD_RG, .WP_SCOREBOARD_PG, .WP_SCOREBOARD_BFG, .WP_SCOREBOARD_CG, .WP_SCOREBOARD_NG, .WP_SCOREBOARD_PM, .WP_SCOREBOARD_GT_A, .WP_SCOREBOARD_MG_A, .WP_SCOREBOARD_SG_A, .WP_SCOREBOARD_GL_A, .WP_SCOREBOARD_LG_A, .WP_SCOREBOARD_RL_A, .WP_SCOREBOARD_RG_A, .WP_SCOREBOARD_PG_A, .WP_SCOREBOARD_BFG_A, .WP_SCOREBOARD_CG_A, .WP_SCOREBOARD_NG_A, .WP_SCOREBOARD_PM_A, .WP_RED_SCOREBOARD_TEAM_RANK, .WP_RED_SCOREBOARD_TEAM, .WP_RED_SCOREBOARD_GT, .WP_RED_SCOREBOARD_MG, .WP_RED_SCOREBOARD_SG, .WP_RED_SCOREBOARD_GL, .WP_RED_SCOREBOARD_LG, .WP_RED_SCOREBOARD_RL, .WP_RED_SCOREBOARD_RG, .WP_RED_SCOREBOARD_PG, .WP_RED_SCOREBOARD_BFG, .WP_RED_SCOREBOARD_CG, .WP_RED_SCOREBOARD_NG, .WP_RED_SCOREBOARD_PM, .WP_RED_SCOREBOARD_GT_A, .WP_RED_SCOREBOARD_MG_A, .WP_RED_SCOREBOARD_SG_A, .WP_RED_SCOREBOARD_GL_A, .WP_RED_SCOREBOARD_LG_A, .WP_RED_SCOREBOARD_RL_A, .WP_RED_SCOREBOARD_RG_A, .WP_RED_SCOREBOARD_PG_A, .WP_RED_SCOREBOARD_BFG_A, .WP_RED_SCOREBOARD_CG_A, .WP_RED_SCOREBOARD_NG_A, .WP_RED_SCOREBOARD_PM_A, .WP_BLUE_SCOREBOARD_TEAM_RANK, .WP_BLUE_SCOREBOARD_TEAM, .WP_BLUE_SCOREBOARD_GT, .WP_BLUE_SCOREBOARD_MG, .WP_BLUE_SCOREBOARD_SG, .WP_BLUE_SCOREBOARD_GL, .WP_BLUE_SCOREBOARD_LG, .WP_BLUE_SCOREBOARD_RL, .WP_BLUE_SCOREBOARD_RG, .WP_BLUE_SCOREBOARD_PG, .WP_BLUE_SCOREBOARD_BFG, .WP_BLUE_SCOREBOARD_CG, .WP_BLUE_SCOREBOARD_NG, .WP_BLUE_SCOREBOARD_PM, .WP_BLUE_SCOREBOARD_GT_A, .WP_BLUE_SCOREBOARD_MG_A, .WP_BLUE_SCOREBOARD_SG_A, .WP_BLUE_SCOREBOARD_GL_A, .WP_BLUE_SCOREBOARD_LG_A, .WP_BLUE_SCOREBOARD_RL_A, .WP_BLUE_SCOREBOARD_RG_A, .WP_BLUE_SCOREBOARD_PG_A, .WP_BLUE_SCOREBOARD_BFG_A, .WP_BLUE_SCOREBOARD_CG_A, .WP_BLUE_SCOREBOARD_NG_A, .WP_BLUE_SCOREBOARD_PM_A {
+    font-size: 11px;
+    line-height: 20px;
+    padding: 0 0px;
+    overflow: hidden;
+    width: 35px;
+    text-align: center;
+    white-space: nowrap;
+}
+.SCOREBOARD_PLAYER_NICK, .WP_SCOREBOARD_PLAYER_NICK, .WP_BLUE_SCOREBOARD_PLAYER_NICK, .WP_RED_SCOREBOARD_PLAYER_NICK, .SCOREBOARD_PLAYER_NICK a, .WP_SCOREBOARD_PLAYER_NICK a, .WP_BLUE_SCOREBOARD_PLAYER_NICK a, .WP_RED_SCOREBOARD_PLAYER_NICK a {
+    font-size: 11px;
+    height: 20px;
+    padding: 0 0px;
+    overflow: hidden;
+    text-align: left;
+    white-space: nowrap;
+    width: 56px;
+}
+.WP_SCOREBOARD_PLAYER_NICK, .WP_BLUE_SCOREBOARD_PLAYER_NICK, .WP_RED_SCOREBOARD_PLAYER_NICK {
+    width: 135px;
+}
+.WP_TEAM_SCOREBOARD_GT, .WP_TEAM_SCOREBOARD_MG, .WP_TEAM_SCOREBOARD_SG, .WP_TEAM_SCOREBOARD_GL, .WP_TEAM_SCOREBOARD_LG, .WP_TEAM_SCOREBOARD_RL, .WP_TEAM_SCOREBOARD_RG, .WP_TEAM_SCOREBOARD_PG, .WP_TEAM_SCOREBOARD_BFG, .WP_TEAM_SCOREBOARD_CG, .WP_TEAM_SCOREBOARD_NG, .WP_TEAM_SCOREBOARD_PM, .WP_TEAM_SCOREBOARD_GT_A, .WP_TEAM_SCOREBOARD_MG_A, .WP_TEAM_SCOREBOARD_SG_A, .WP_TEAM_SCOREBOARD_GL_A, .WP_TEAM_SCOREBOARD_LG_A, .WP_TEAM_SCOREBOARD_RL_A, .WP_TEAM_SCOREBOARD_RG_A, .WP_TEAM_SCOREBOARD_PG_A, .WP_TEAM_SCOREBOARD_BFG_A, .WP_TEAM_SCOREBOARD_CG_A, .WP_TEAM_SCOREBOARD_NG_A, .WP_TEAM_SCOREBOARD_PM_A {
+    font-size: 11px;
+    line-height: 20px;
+    padding: 0 0px;
+    overflow: hidden;
+    width: 35px;
+    text-align: center;
+    white-space: nowrap;
+}
+.WP_TEAM_SCOREBOARD_TEAM {
+    font-size: 11px;
+    line-height: 20px;
+    overflow: hidden;
+    margin: 0 10px;
+    width: 180px;
+    text-align: left;
+    white-space: nowrap;
+}
+.SCOREBOARD_PLAYER_NICK, .RED_SCOREBOARD_PLAYER_NICK, .BLUE_SCOREBOARD_PLAYER_NICK, .WP_SCOREBOARD_PLAYER_NICK, .WP_RED_SCOREBOARD_PLAYER_NICK, .WP_BLUE_SCOREBOARD_PLAYER_NICK {
+    text-align: left;
+    width: 150px;
+}
+.SCOREBOARD_RANK, .WP_SCOREBOARD_RANK, .WP_RED_SCOREBOARD_TEAM_RANK, .WP_BLUE_SCOREBOARD_TEAM_RANK {
+    margin: 0 10px;
+    width: 40px;
+    text-align: center;
+}
+.SCOREBOARD_PLAYER_NICK a, .RED_SCOREBOARD_PLAYER_NICK a, .BLUE_SCOREBOARD_PLAYER_NICK a, .WP_SCOREBOARD_PLAYER_NICK a, .WP_RED_SCOREBOARD_PLAYER_NICK a, .WP_BLUE_SCOREBOARD_PLAYER_NICK a {
+    font-size: 11px;
+    text-decoration: none;
+    color: #000;
+    text-align: left;
+}
+.SCOREBOARD_PLAYER_NICK a:hover, .RED_SCOREBOARD_PLAYER_NICK a:hover, .BLUE_SCOREBOARD_PLAYER_NICK a:hover, .WP_SCOREBOARD_PLAYER_NICK a:hover, .WP_RED_SCOREBOARD_PLAYER_NICK a:hover, .WP_BLUE_SCOREBOARD_PLAYER_NICK a:hover {
+    text-decoration: underline;
+}
+.boardPlayerIcon {
+    margin-right: 5px;
+}
+.boardPlayerFlag {
+    border: 1px solid #000;
+    margin-right: 5px;
+}
+.tipPlayerIcon {
+    margin-right: 5px;
+    margin-top: 1px;
+    border: 1px solid #fff;
+}
+.tipPlayerFlag {
+    border: 1px solid #000;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+.board_blue {
+    background: url(/images/sf/pop_up/game_data_windows/onClick/hdr_blue_v2013012200.0.png) no-repeat;
+    padding-top: 15px;
+}
+.board_red {
+    background: url(/images/sf/pop_up/game_data_windows/onClick/hdr_red_v2013012200.0.png) no-repeat;
+    padding-top: 15px;
+}
+.dataDetailL table thead tr th {
+    font-weight: bold;
+}
+.dataDetailL table tr {
+    height: 21px;
+}
+.dataDetailL, .dataDetailL table, .dataDetailL table tbody tr, .dataDetailL table tbody tr td, .dataDetailL table tr, .dataDetailL table tr td {
+    border: none;
+    border-style: none;
+    border-width: 0px;
+}
+.dataDetailL table tr td img {
+    vertical-align: middle;
+}
+.dataDetailL table {
+    width: 100%}
+.share_email_img {
+    display: block;
+    width: 18px;
+    height: 12px;
+    background: url(/images/sf/pop_up/game_data_windows/onClick/icon_email_v2013012200.0.png) no-repeat;
+    margin-right: -12px;
+}
+.share_email_img:hover {
+    background-position: 0 -12px;
+}
+.share_link_img {
+    display: block;
+    width: 18px;
+    height: 12px;
+    background: url(/images/sf/pop_up/game_data_windows/onClick/icon_link_v2013012200.0.png) no-repeat;
+    margin-right: -10px;
+}
+.share_link_img:hover {
+    background-position: 0 -12px;
+}
+.addthis_container {
+    margin-top: -2px;
+}
+.QuittersToggleBtn, .QuittersToggledBtn {
+    display: block;
+    background: url(/images/on_off_hover_arrow_v2013012200.0.png) no-repeat;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+}
+.QuittersToggleBtn:hover {
+    background-position: 0 -30px;
+}
+.QuittersToggledBtn, .QuittersToggledBtn:hover {
+    background-position: 0 -15px;
+}
+.headerSortUp {
+    color: white;
+    background: #979797 url(/images/sf/pop_up/game_data_windows/sort_up_v2013012200.0.png) no-repeat center 2px;
+}
+.headerSortDown {
+    color: white;
+    background: #979797 url(/images/sf/pop_up/game_data_windows/sort_down_v2013012200.0.png) no-repeat center 20px;
+}
+.redBG .headerSortUp, .redBG .headerSortDown {
+    background-color: #cc3333;
+}
+.blueBG .headerSortUp, .blueBG .headerSortDown {
+    background-color: #006699;
+}
+
+table.statik{
+	margin: 0 auto;
+	width: 80%;
+	font-size: 18px;
+}
+
+table.statik tr td{
+	height: 40px;
+}
+table.statik .icon{
+	
+	display: inline-block;
+	float: none;
+}
