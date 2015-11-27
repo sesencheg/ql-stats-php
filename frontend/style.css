@@ -153,6 +153,10 @@ td.player a
 	margin: 20px 0 0 0;
 }
 
+#footer a{
+	color: #a54e4e;
+}
+
 #content {
 	display: block;
 	width: 100%;

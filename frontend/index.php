@@ -227,7 +227,7 @@ $("#mapgraph").bind("plothover", showCursorMessage);
       </div>
       <div class="clear"></div>
       <div id="footer">
-
+      	<p><a href="https://github.com/sesencheg/ql-stats-php" title="Go to the project page" target="_blank">QL Stats PHP sources</a> are licensed under GPLv2.</p>
       </div>
   </form>
     <script language="javascript" type="text/javascript">
@@ -247,6 +247,34 @@ $("#mapgraph").bind("plothover", showCursorMessage);
 
         $('#ctl00_txtPlayerSearch').placeholder();
     </script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter9954517 = new Ya.Metrika({id:9954517,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/9954517" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->    
 </body>
 </html>
 
